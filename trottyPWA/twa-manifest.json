@@ -1,0 +1,39 @@
+{
+  "packageId": "localhost.twa",
+  "host": "localhost",
+  "name": "Dev'Coffee",
+  "launcherName": "DevCoffee",
+  "display": "standalone",
+  "themeColor": "#DB4938",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FDFDFD",
+  "enableNotifications": true,
+  "startUrl": "/trottyPWA/index.html",
+  "iconUrl": "http://localhost/images/icons/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\wamp64\\www\\trottypwa\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "http://localhost/trottyPWA/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": true
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "portrait-primary",
+  "appVersion": "1"
+}
